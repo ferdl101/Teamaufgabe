@@ -18,6 +18,14 @@ public class ATCount {
         this.trainstations++;
     }
 
+    public void setAirports(int airports) {
+        this.airports = airports;
+    }
+
+    public void setTrainstations(int trainstations) {
+        this.trainstations = trainstations;
+    }
+
     public int getAirports() {
         return airports;
     }
